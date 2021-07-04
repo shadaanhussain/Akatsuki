@@ -1,0 +1,95 @@
+body {
+    margin: 0%;
+    background-image: linear-gradient(-150deg, green, yellow, lightgreen, lightyellow);
+}
+
+.div1 {
+    height: 0;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: all 2s ease-in-out;
+}
+
+.div1:target {
+    height: 600px;
+    width: 300px;
+    background-color: rgb(247, 222, 205);
+    top: 80px;
+    left: 40%;
+}
+
+.img {
+    margin: 0px 10px;
+    height: 280px;
+    width: 280px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.text-centre {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0%;
+}
+
+p {
+    margin: 0%;
+    padding: 10px;
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    font-size: 2rem;
+    display: inline-block;
+    padding: 100px 80px;
+    color: rgb(255, 0, 0);
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    text-shadow: 0px 0px 10px red;
+}
+
+h1::before {
+    content: '';
+    background-image: url(images/cloud.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+
+h1::after {
+    content: '';
+    background-image: url(images/cloud.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+
+.heading {
+    font-size: 5rem;
+    color: red;
+}
+
+h2{
+    letter-spacing: 0.1rem;
+}
+h2 i {
+    color: red;
+}
